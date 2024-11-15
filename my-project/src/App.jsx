@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Rooted from './components/Rooted'
 import Coursesfinal from './components/Coursesfinal'
 import Testimonials from './components/Testimonials'
+import Pricing from './components/Pricing'
 
 
 
@@ -20,6 +21,9 @@ function App() {
         <Route path='/hero' element={<Hero/>} />
         <Route path='/contact' element={<Testimonials/>} />
         <Route path='/courses' element={<Coursesfinal/>} />
+        <Route path='/pricig' element={<Pricing/>} />
+
+
         
 
     </Route>

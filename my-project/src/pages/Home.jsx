@@ -4,6 +4,7 @@ import Spotify from '../components/Spotify'
 import Benefits from '../components/Benefits'
 import Coursesfinal from '../components/Coursesfinal'
 import Testimonials from '../components/Testimonials'
+import Pricing from '../components/Pricing'
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Benefits/>
       <Coursesfinal/>
       <Testimonials/>
+      <Pricing/>
     </div>
   )
 }
