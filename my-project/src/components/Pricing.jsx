@@ -66,32 +66,32 @@ const Pricing = () => {
 
         <div className="  mt-14 w-[500px] p-3">
             <p className='border font-bold bg-[#f5f5f8] text-center rounded-lg p-2 '>Free Plan</p>
-            <p className='text-center mt-4'><span className='text-5xl font-bold'>$0</span>/month</p>
+            <p className='text-center mt-4'><span className='text-5xl font-bold'>$79</span>/month</p>
             <p className='text-center mt-8 font-bold'>Available Features</p>
 
             <div className="flex gap-3 items-center mt-7">
                 <p className='border bg-[#f5f5f8] ml-20'><IoMdCheckmark /></p>
-                <p >Access to selected free courses.</p>
+                <p >Unlimited access to all courses.</p>
             </div>
 
             <div className="flex gap-3 items-center mt-3">
                 <p className='border bg-[#f5f5f8] ml-20'><IoMdCheckmark /></p>
-                <p >Limited course materials and resources.</p>
+                <p >Unlimited course materials and resources.</p>
             </div>
 
             <div className="flex gap-3 items-center mt-3">
                 <p className='border bg-[#f5f5f8] ml-20'><IoMdCheckmark /></p>
-                <p >Basic community support.</p>
+                <p >Priority support form instructors.</p>
             </div>            
 
             <div className="flex gap-3 items-center mt-3">
                 <p className='border bg-[#f5f5f8] ml-20'><IoMdCheckmark /></p>
-                <p >No certification upon completion.</p>
+                <p >Course completion certificates.</p>
             </div>
 
             <div className="flex gap-3 items-center mt-3">
                 <p className='border bg-[#f5f5f8] ml-20'><IoMdCheckmark /></p>
-                <p >Ad-supported platform.</p>
+                <p >Ad-free experience.</p>
             </div>
 
             <div className="flex gap-3 items-center mt-3">
