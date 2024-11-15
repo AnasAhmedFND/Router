@@ -5,6 +5,7 @@ import Benefits from '../components/Benefits'
 import Coursesfinal from '../components/Coursesfinal'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
+import Frequently from '../components/Frequently'
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
       <Coursesfinal/>
       <Testimonials/>
       <Pricing/>
+      <Frequently/>
     </div>
   )
 }

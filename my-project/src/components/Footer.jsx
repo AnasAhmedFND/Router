@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa"
 const Footer = () => {
   return (
     <>
-    <div className="px-10">
+    <div className="px-10 pb-10">
       <div className="footer flex justify-between mt-16 border-b-2 pb-8">
         <div className="one">
           <img src={Logo} alt="" />
@@ -57,7 +57,7 @@ const Footer = () => {
 
       </div>
 
-      <p className='pt-8'>© 2023 Skillbridge. All rights reserved.</p>
+      <p className='pt-8 text-center'>© 2023 Skillbridge. All rights reserved.</p>
 
     </div>
     </>
