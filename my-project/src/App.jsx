@@ -3,9 +3,9 @@ import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
 import Hero from './components/Hero'
-import Contact from './pages/Contact'
 import Rooted from './components/Rooted'
 import Coursesfinal from './components/Coursesfinal'
+import Testimonials from './components/Testimonials'
 
 
 
@@ -18,7 +18,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/hero' element={<Hero/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/contact' element={<Testimonials/>} />
         <Route path='/courses' element={<Coursesfinal/>} />
         
 

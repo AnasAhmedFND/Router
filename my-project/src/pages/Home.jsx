@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Spotify from '../components/Spotify'
 import Benefits from '../components/Benefits'
 import Coursesfinal from '../components/Coursesfinal'
+import Testimonials from '../components/Testimonials'
 
 
 
@@ -14,6 +15,7 @@ const Home = () => {
       <Spotify/>
       <Benefits/>
       <Coursesfinal/>
+      <Testimonials/>
     </div>
   )
 }

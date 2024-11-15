@@ -1,10 +1,11 @@
 import React from 'react'
-import Footer from '../components/Footer'
+
+import Testimonials from '../components/Testimonials'
 
 const Contact = () => {
   return (
     <div>
-      
+      <Testimonials/>
     </div>
   )
 }
