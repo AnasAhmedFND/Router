@@ -5,6 +5,8 @@ import About from './pages/About'
 import Hero from './components/Hero'
 import Contact from './pages/Contact'
 import Rooted from './components/Rooted'
+import Coursesfinal from './components/Coursesfinal'
+
 
 
 
@@ -15,8 +17,10 @@ function App() {
     <Route element={<Rooted/>}>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
-        <Route path='/courses' element={<Hero/>} />
+        <Route path='/hero' element={<Hero/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/courses' element={<Coursesfinal/>} />
+        
 
     </Route>
   ))
@@ -24,6 +28,7 @@ function App() {
   return (
     <>
     <RouterProvider router={router}/>
+    
     
     </>
   )

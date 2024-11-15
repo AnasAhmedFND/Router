@@ -1,8 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import Footer from '../components/Footer'
+import Spotify from '../components/Spotify'
+import Benefits from '../components/Benefits'
+import Coursesfinal from '../components/Coursesfinal'
+
 
 
 const Home = () => {
@@ -10,7 +11,9 @@ const Home = () => {
     <div>
      
       <Hero/>
-     
+      <Spotify/>
+      <Benefits/>
+      <Coursesfinal/>
     </div>
   )
 }

@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa"
 const Footer = () => {
   return (
     <>
-    <div className="">
+    <div className="px-10">
       <div className="footer flex justify-between mt-16 border-b-2 pb-8">
         <div className="one">
           <img src={Logo} alt="" />

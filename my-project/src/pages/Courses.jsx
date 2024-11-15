@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero from '../components/Hero'
+import Coursesfinal from '../components/Coursesfinal'
 
 const Courses = () => {
   return (
     <div>
-      <Hero/>
+      <Coursesfinal/>
     </div>
   )
 }

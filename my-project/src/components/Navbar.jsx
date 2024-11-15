@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between mt-2 items-center">
+      <div className="flex justify-between mt-2 items-center px-10">
         <div className="flex gap-10 ">
             <img src={Logo} alt="" />
             <ul className='flex gap-5 items-center'>
                 <li><Link to='/'>Home</Link>  </li>
                 <li><Link to='/about'>About Us</Link></li>
                 <li><Link to='/courses'>Courses</Link></li>
-                <li>Pricing</li>
-                <li><Link to='/contact' >Contact</Link> </li>
+                <li> Pricing </li>
+                <li>Contact </li>
             </ul>
         </div>
 

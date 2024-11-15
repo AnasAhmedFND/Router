@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Spotify from '../components/Spotify'
+
 
 const About = () => {
   return (
     <div>
-      <Navbar/>
+     <Spotify/>
     </div>
   )
 }
